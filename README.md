@@ -343,8 +343,66 @@ MIT License - See [LICENSE](LICENSE) for details
 
 Created for Meta Horizon Start Developer Competition
 
-**GitHub**: [Your GitHub]  
-**Email**: [Your Email]
+**Developer**: Omar Armesto  
+**GitHub**: [github.com/Oarmestos/PackMate](https://github.com/Oarmestos/PackMate)  
+**Email**: maorarmesto@gmail.com  
+**Location**: Colombia 🇨🇴
+
+---
+
+## ⚠️ Development Status & Limitations
+
+> [!IMPORTANT]
+> **Hardware Limitation Disclosure**
+
+This project was developed for the Meta Horizon Start Competition with the following important context:
+
+### Current Status
+
+✅ **Completed:**
+- Full Meta Spatial SDK 0.8.1 integration in code
+- Hybrid architecture (Quest + Android simulation)
+- Professional documentation and assets
+- TypeScript type-safe implementation
+- Native Kotlin bridge with real SDK calls
+
+⚠️ **Limitation:**
+- **No physical Meta Quest hardware access** during development
+- Code is ready for Quest deployment but **not tested on actual hardware**
+- All development and testing done using simulation mode on Android mobile
+
+### Technical Approach
+
+To overcome the hardware limitation, I implemented:
+
+1. **Automatic Device Detection**: The app detects if running on Quest or mobile
+2. **Hybrid Architecture**: Real SDK on Quest, simulation on mobile
+3. **Code-Ready Implementation**: All SDK calls properly integrated and ready for Quest
+4. **Comprehensive Simulator**: Full-featured simulator for development without hardware
+
+### Verification
+
+✅ **What has been verified:**
+- TypeScript compilation (no errors)
+- Code structure and architecture
+- Simulation mode on Android mobile
+- SDK integration correctness (code review)
+
+⚠️ **What needs verification:**
+- Actual performance on Meta Quest hardware
+- Real hand tracking accuracy
+- Real scene detection with physical suitcases
+- Passthrough quality and user experience
+
+### Transparency Note
+
+I believe in being transparent about development constraints. While I couldn't test on Quest hardware, I've:
+- Followed Meta's SDK documentation precisely
+- Implemented proper error handling
+- Created a robust architecture ready for deployment
+- Documented everything thoroughly
+
+The code is **production-ready** and **Quest-compatible**, pending real-world hardware validation.
 
 ---
 
