@@ -418,6 +418,6 @@ The code is **production-ready** and **Quest-compatible**, pending real-world ha
 
 **Made for travelers, powered by Mixed Reality** 🌍✈️🎒
 
-**Meta Horizon Start 2024**
+**Meta Horizon Start 2025**
 
 </div>
