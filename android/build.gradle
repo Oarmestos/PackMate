@@ -1,7 +1,7 @@
 buildscript {
     ext {
         buildToolsVersion = "36.0.0"
-        minSdkVersion = 24
+        minSdkVersion = 29  // Meta Quest requires API 29+
         compileSdkVersion = 36
         targetSdkVersion = 36
         ndkVersion = "27.1.12297006"
@@ -10,6 +10,10 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        // Meta Spatial SDK Repository
+        maven {
+            url "https://maven.meta.com/repository/public/"
+        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle")

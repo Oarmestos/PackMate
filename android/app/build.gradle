@@ -105,6 +105,13 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    
+    // Configuración para nombres descriptivos de APK
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "PackMate.apk"
+        }
+    }
 }
 
 dependencies {
@@ -116,4 +123,10 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+    
+    // Meta Spatial SDK - ACTIVADO para producción
+    implementation 'com.meta.spatial:spatial-sdk:0.8.1'
+    
+    // OpenXR para Mixed Reality
+    implementation 'org.khronos.openxr:openxr_loader_for_android:1.0.34'
 }
